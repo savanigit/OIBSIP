@@ -1,22 +1,55 @@
-## Task 4: Email Spam Detection with Machine Learning
-**Objective:** Build a model to classify emails as "Spam" or "Ham" (Non-Spam).
+# OIBSIP Data Science Internship Portfolio
 
-**Key Steps:**
-1. Preprocessed text data (Removed garbage columns, renamed labels).
-2. Converted text to numbers using **CountVectorizer** (Bag of Words).
-3. Trained a **Multinomial Naive Bayes** model.
-4. Achieved an impressive **98.4% Accuracy**.
-5. Minimized False Positives (Only 2 real emails were misclassified).
+Welcome to my submission repository for the **Oasis Infobyte Data Science Internship**.
+This repository contains four completed tasks demonstrating skills in Machine Learning, Data Analysis, and Natural Language Processing (NLP).
 
-**Technology Stack:** Python, Scikit-learn (Naive Bayes), Pandas, NLP.
-## Task 3: Car Price Prediction with Machine Learning
-**Objective:** Train a machine learning model to predict the selling price of a car based on its features.
+---
 
-**Key Steps:**
-1. Loaded the dataset and handled "messy" data (dropped 'Car_Name').
-2. Preprocessed categorical features (Fuel Type, Transmission) into numerical values using Manual Encoding.
-3. Visualized correlations using a Seaborn Heatmap.
-4. Trained a Linear Regression model.
-5. Achieved an R-Squared score of **0.84**, indicating a strong predictive performance.
+## 🌸 Task 1: Iris Flower Classification
+**Objective:** Train a machine learning model to classify iris flowers based on their sepal and petal measurements.
 
-**Technology Stack:** Python, Scikit-learn, Pandas, Seaborn.
+**Key Highlights:**
+- **Model Used:** Logistic Regression.
+- **Accuracy:** Achieved **100% accuracy** on the test set.
+- **Process:** Performed EDA with Pairplots to identify linear separability, split data, and validated predictions on new custom inputs.
+- **Tech Stack:** Python, Scikit-Learn, Pandas, Seaborn.
+
+---
+
+## 📊 Task 2: Unemployment Analysis with Python
+**Objective:** Analyze the sharp increase in the unemployment rate during the Covid-19 period.
+
+**Key Highlights:**
+- **Analysis:** Visualized the "Covid Spike" in unemployment rates using time-series line plots.
+- **Insight:** Identified that **May-June 2020** saw the highest spike in unemployment.
+- **Findings:** Discovered that states like **Tripura, Haryana, and Jharkhand** were the hardest hit.
+- **Tech Stack:** Python, Matplotlib, Seaborn, Plotly.
+
+---
+
+## 🚗 Task 3: Car Price Prediction
+**Objective:** Train a regression model to predict the selling price of used cars based on specifications.
+
+**Key Highlights:**
+- **Model Used:** Linear Regression.
+- **Performance:** Achieved an **R-Squared score of 0.84**.
+- **Process:** Handled categorical data (Fuel Type, Transmission) using manual encoding and visualized correlations with Heatmaps.
+- **Tech Stack:** Python, Scikit-Learn, Pandas, Seaborn.
+
+---
+
+## 📧 Task 4: Email Spam Detection
+**Objective:** Build an NLP model to classify emails as "Spam" or "Ham" (Non-Spam).
+
+**Key Highlights:**
+- **Model Used:** Multinomial Naive Bayes.
+- **Accuracy:** Achieved **98.4% accuracy**.
+- **Process:** Used **CountVectorizer** to convert text to numbers (Bag of Words) and minimized False Positives to protect important emails.
+- **Tech Stack:** Python, Scikit-Learn (NLP), Pandas.
+
+---
+
+### 🚀 Conclusion
+This internship has been a journey through the core pillars of Data Science: **Classification, Regression, Time-Series Analysis, and NLP.**
+
+*Feel free to explore the folders above for the complete code and datasets!*
